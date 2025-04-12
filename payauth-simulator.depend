@@ -1,0 +1,50 @@
+# depslib dependency file v1.0
+1744466033 source:c:\users\usuario\documents\luciano\proyectos\lenguaje c\payauth-simulator\main.c
+	<stdio.h>
+	"transaction.h"
+	"auth_engine.h"
+	"logger.h"
+
+1744465256 c:\users\usuario\documents\luciano\proyectos\lenguaje c\payauth-simulator\transaction.h
+
+1744465341 c:\users\usuario\documents\luciano\proyectos\lenguaje c\payauth-simulator\auth_engine.h
+	"transaction.h"
+
+1744465372 c:\users\usuario\documents\luciano\proyectos\lenguaje c\payauth-simulator\logger.h
+	"transaction.h"
+	"auth_engine.h"
+
+1744465546 source:c:\users\usuario\documents\luciano\proyectos\lenguaje c\payauth-simulator\auth_engine.c
+	<stdio.h>
+	<string.h>
+	"auth_engine.h"
+	"validator.h"
+	"compliance.h"
+
+1744465287 c:\users\usuario\documents\luciano\proyectos\lenguaje c\payauth-simulator\validator.h
+	"transaction.h"
+
+1744465314 c:\users\usuario\documents\luciano\proyectos\lenguaje c\payauth-simulator\compliance.h
+	"transaction.h"
+
+1744466802 source:c:\users\usuario\documents\luciano\proyectos\lenguaje c\payauth-simulator\compliance.c
+	<stdio.h>
+	<string.h>
+	"compliance.h"
+
+1744465584 source:c:\users\usuario\documents\luciano\proyectos\lenguaje c\payauth-simulator\logger.c
+	<stdio.h>
+	<stdlib.h>
+	"logger.h"
+
+1744465421 source:c:\users\usuario\documents\luciano\proyectos\lenguaje c\payauth-simulator\transaction.c
+	<stdio.h>
+	<string.h>
+	"transaction.h"
+
+1744466817 source:c:\users\usuario\documents\luciano\proyectos\lenguaje c\payauth-simulator\validator.c
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+	"validator.h"
+
